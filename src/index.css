@@ -1,13 +1,119 @@
+/*
+Custom CSS for colours and styling
+
+primary: blue #004080;
+secondary: red 800000 / bright red cc0000 / light brown #a2875c;
+neutral-dark: dark grey #e3e3e3;
+neutral-light: light grey #f6f6f6;
+
+ */
+
+/* custom background color */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #f6f6f6;
+  margin-bottom: 120px;
+  min-height: 100%;
+  color: #3e3e3e;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  color: #a2875c;
+}
+
+/* heading styles */
+h1 {
+  font-family: monospace;
+  color: #a2875c;
+}
+
+h3, h4, h5 {
+  font-family: monospace;
+  font-weight: bold;
+  color: #073763;
+}
+
+hr {
+  border-color: #a2875c;
+}
+
+/* navbar appearance customisations */
+.bg-custom {
+  background-color: #073763;
+  font-family: monospace;
+  border-bottom: 5px solid #a2875c;
+}
+.bg-custom .navbar-brand{
+  color: #a2875c;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.bg-custom .nav-link {
+  font-size: 1rem;
+  color: #a2875c;
+}
+
+.bg-custom .nav-link :hover{
+  color: #f6f6f6;
+}
+
+/* index links section */
+.centred-links {
+  text-align: center;
+}
+
+/* custom project card styling */
+.project-card {
+  border-color: #a2875c;
+}
+
+/* portfolio item technology lists */
+.portfolio-tech {
+  color:  #a2875c;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+/* button appearance customisations */
+.btn-cust-gold {
+  background-color: #a2875c;
+  color: #f6f6f6;
+  opacity:85%;
+  font-family: monospace;
+}
+
+.btn-cust-blue {
+  background-color: #073763;
+  color: #f6f6f6;
+  opacity: 85%;
+  font-family: monospace;
+}
+
+.btn-cust-gold:hover {
+  background-color: #a2875c;
+  color: #ffffff;
+  opacity: 100%;
+}
+
+.btn-cust-blue:hover {
+  background-color: #073763;
+  color: #ffffff;
+  opacity: 100%;
+}
+
+/* bottom footer bar panel */
+.footer {
+  border-top: 5px solid #a2875c;
+  bottom: 0px;
+  position: fixed;
+  margin-bottom: 0;
+  margin-top: 60px;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  background-color: #073763;
+  color: #f6f6f6;
+  font-family: monospace;
+  font-size: 12pt;
 }
