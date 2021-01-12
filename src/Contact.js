@@ -13,7 +13,7 @@ function Contact(){
                         <hr/>                      
                         <p>This page does not currently work at the moment, but once it does, you can fill in the form below to get in touch.
                              In the mean time, you may contact me by email <i className="fas fa-at"></i>&nbsp;<a href="mailto:danieltarbon@live.com.au">danieltarbon@live.com.au</a>
-                             &ensp;or give me a call on <i className="fas fa-phone-alt"></i>&nbsp;<a href="tel:+61422735715">+61 422 735 715</a>.</p>   
+                             &ensp;or give me a call <i className="fas fa-phone-alt"></i>&nbsp;<a href="tel:+61422735715">+61 422 735 715</a>.</p>   
                         {/* contact form */}
                         <form>
                             <div className="form-group"> {/* name */}
