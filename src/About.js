@@ -1,5 +1,7 @@
 // imports
 import React from "react";
+import resumePDF from "./assets/arbdt-resume-bcs-version.pdf";
+import bioImage from "./assets/images/bio-image.jpg";
 
 // component definition
 function About(){
@@ -10,7 +12,7 @@ function About(){
                     <div className="card-body">
                         <h1>About Me</h1>
                         <hr/>
-                        <img src="Assets/Images/bio-image.jpg" className="float-left mr-3" alt="The owner of this page."/> {/* bio image */}
+                        <img src={bioImage} className="float-left mr-3" alt="The owner of this page."/> {/* bio image */}
                         {/* biographical text here */}
                         <p>Hello there!</p>
                         <p>I am a web developer with experience creating both front-end and back-end.
@@ -26,7 +28,7 @@ function About(){
                             <p><strong>Other Links:</strong></p>
                             <p><i className="fab fa-github"></i> <a href="https://www.github.com/arbdt">Git Hub</a> &emsp;
                             <i className="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/daniel-arbon-9bbb2419a/">LinkedIn</a> &emsp;
-                            <i className="fas fa-file-pdf"></i> <a href="./Assets/arbdt-resume-bcs-version.pdf"> My CV</a></p>
+                            <i className="fas fa-file-pdf"></i> <a href={resumePDF}> My CV</a></p>
                         </section>
                     </div>
                 </div>
