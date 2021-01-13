@@ -1,7 +1,8 @@
 // imports
 import React from "react";
-import resumePDF from "./assets/arbdt-resume-bcs-version.pdf";
-import bioImage from "./assets/images/bio-image.jpg";
+import {Link} from "react-router-dom";
+import resumePDF from "../assets/arbdt-resume-bcs-version.pdf";
+import bioImage from "../assets/images/bio-image.jpg";
 
 // component definition
 function About(){
@@ -22,7 +23,7 @@ function About(){
                                in utilising AJAX-based API calls with JQuery, creating web-based and command-line applications using Node.JS and Express.JS,
                                 performing database operations with MySQL and Sequelize or MongoDB and Mongoose, with utilising Handlebars for templates, and using Bootstrap for layouts.
                                I also have experience with using Git and GitHub for version control, and with hosting websites on GitHub Pages or Heroku.</p>
-                        <p>Welcome to my online portfolio. Head on over to the <a href="/portfolio">Portfolio</a> page to view a list of my work.</p>
+                        <p>Welcome to my online portfolio. Head on over to the <Link to="/contact">Contact Me</Link> page to view a list of my work.</p>
                         <hr/>
                         <section className="centred-links"> {/* external links */}
                             <p><strong>Other Links:</strong></p>

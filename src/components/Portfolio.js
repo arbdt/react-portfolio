@@ -1,6 +1,6 @@
 // imports
 import React from "react";
-import {showcaseItems, otherItems} from "./utils/PortfolioItems";
+import {showcaseItems, otherItems} from "../utils/PortfolioItems";
 
 // define component
 function Portfolio(){
