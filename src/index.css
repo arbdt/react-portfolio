@@ -78,27 +78,27 @@ hr {
 .btn-cust-gold {
   background-color: #a2875c;
   color: #f6f6f6;
-  opacity:85%;
+  opacity: 0.85;
   font-family: monospace;
 }
 
 .btn-cust-blue {
   background-color: #073763;
   color: #f6f6f6;
-  opacity: 85%;
+  opacity: 0.85;
   font-family: monospace;
 }
 
 .btn-cust-gold:hover {
   background-color: #a2875c;
   color: #ffffff;
-  opacity: 100%;
+  opacity: 1;
 }
 
 .btn-cust-blue:hover {
   background-color: #073763;
   color: #ffffff;
-  opacity: 100%;
+  opacity: 1;
 }
 
 /* bottom footer bar panel */
