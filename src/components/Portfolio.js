@@ -31,7 +31,7 @@ function Portfolio(){
                             ): <></>}
 
                             <h3>Other Work</h3>
-                            <div className="row row-cols-3">
+                            <div className="row row-cols-sm-3">
                                 {otherItems !== undefined? otherItems.map((item) => 
                                     <div className="col">
                                         <div className="project-card card mb-4"> 
