@@ -1,7 +1,7 @@
 // imports
 import React from "react";
 import {Link} from "react-router-dom";
-import resumePDF from "../assets/arbdt-resume-bcs-version.pdf";
+import resumePDF from "../assets/arbdt-resume-webdev-version.pdf";
 import bioImage from "../assets/images/bio-image.jpg";
 
 // component definition
