@@ -7,7 +7,8 @@ import schedulerPreview from "../assets/images/preview-scheduler.png";
 import weatherDashPreview from "../assets/images/weather-dash-preview.png";
 import notesPreview from "../assets/images/note-page-preview.png";
 import burgerPreview from "../assets/images/eat-da-burger-preview.png";
-import workoutPreview from "../assets/images/workout-tracker-preview.png"
+import workoutPreview from "../assets/images/workout-tracker-preview.png";
+import xivTrackerPreview from "../assets/images/xiv-tracker-preview.png";
 
 // show case items (major projects)
 const showcaseItems = [
@@ -26,6 +27,15 @@ const showcaseItems = [
         text: "A Heroku-hosted MVC site that allows visitors to upload coffees and reviews for coffees to a MySQL/JawsDB database.",
         tech: "HTML / CSS / JS / Jquery (Ajax) / Express.js / Handlebars / Sequelize / MySQL",
         deployedUrl: "https://salty-forest-45628.herokuapp.com/",
+        repoUrl: "https://github.com/dcon0610/Project2/"
+    },
+    {
+        image: xivTrackerPreview,
+        title: "XIV Character Tracker",
+        text: "A Heroku-hosted MERN stack webapp that allows visitors to view character data from the Square Enix-published video game Final Fantasy XIV."
+        + " Users can log in via Auth0 to create a User database entry and save characters to it, and create a Character database entry to store a character's data.",
+        tech: "HTML / CSS / JS / Bootstrap / Express.js / ReactJS / MongoDB / Mongoose / Auth0",
+        deployedUrl: "https://lit-caverns-46124.herokuapp.com/",
         repoUrl: "https://github.com/dcon0610/Project2/"
     }
 ];
